@@ -6,7 +6,6 @@ class Solution:
             mid = (l + r)//2
             if(nums[mid]<nums[mid+1]):
                 l= mid + 1
-                maxi = l
             else:
                 r= mid
         return l
